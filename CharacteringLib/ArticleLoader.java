@@ -1,20 +1,21 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 
 public class ArticleLoader {
 	
-	public static String getArticleFromfile(String filename) {
-		StringBuilder article = new StringBuilder();
+	public static List<String> getArticleFromfile(String filename) {
+		List<String> article = new ArrayList<String>();
 		BufferedReader br = null;
 		try {
 			String sCurrentLine;
 			br = new BufferedReader(new FileReader(filename));
 			while ((sCurrentLine = br.readLine()) != null) {
-				article.append(sCurrentLine);
-				article.append(' ');
+				article.add(sCurrentLine);
 			}
  
 		} catch (IOException e) {
@@ -27,7 +28,7 @@ public class ArticleLoader {
 			}
 		}
 		
-		return article.toString();
+		return article;
 	}
 
 	public static void main(String[] args) {
