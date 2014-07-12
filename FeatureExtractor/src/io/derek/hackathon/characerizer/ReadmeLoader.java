@@ -1,6 +1,7 @@
 package io.derek.hackathon.characerizer;
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
@@ -32,10 +33,14 @@ public class ReadmeLoader {
 		} catch (MalformedURLException e ) {
 			e.printStackTrace();
 			return null;
+		} catch (FileNotFoundException eFileNotFound) {
+			eFileNotFound.printStackTrace();
+			return null;
 		} catch (IOException eIO) {
 			eIO.printStackTrace();
 			return null;
 		}
+		
     }
 	
 	
@@ -46,7 +51,7 @@ public class ReadmeLoader {
 		
 		String content = ReadmeLoader.getText(projectURL);
 	
-		int index1 = content.indexOf("<span class=\"octicon octicon-book\"></span>");
+		int index1 = content.indexOf("<span class=\"octicon octicon-book\"></span>  ");
 		if (index1 == -1) return null;
 		String str1 = content.substring(index1 + 48);
 		
@@ -58,13 +63,14 @@ public class ReadmeLoader {
 
 		// Get the raw readme URL
 		String readmeURL = "https://raw.githubusercontent.com/" + map.get("owner") + "/" + map.get("name") + "/master/" + filename;
+//		System.out.println(filename);
 		return ReadmeLoader.getText(readmeURL);
 	}
 	
 	public static void main(String[] args) throws Exception {
 		HashMap<String, String> map = new HashMap<String, String>();
-		map.put("owner", "tomwhite");
-		map.put("name", "hadoop-book");
+		map.put("owner", "mono");
+		map.put("name", "MonoGame");
 		
 		String readme = ReadmeLoader.getReadMEFromURL(map);
 		System.out.println(readme);
