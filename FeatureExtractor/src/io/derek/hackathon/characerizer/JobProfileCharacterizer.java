@@ -8,8 +8,8 @@ import java.util.Vector;
 
 public class JobProfileCharacterizer {
 	
-	final String[] strongWords = {"strong", "required", "excellent", "highly", "fluency", "proficiency" ,"expert"};
-	final String[] desiredWords = {"desired", "plus"};
+	final String[] strongWords = {"strong", "required", "excellent", "highly", "fluency", "proficiency" ,"expert", "years"};
+	final String[] desiredWords = {"desired", "plus", "bonus"};
 	
 	public Map<String, Double> characterize(List<String> article) {
 		Map<String, Double> resultMap = new HashMap<String, Double>();
@@ -79,7 +79,7 @@ public class JobProfileCharacterizer {
 	}
 	
 	public static void main(String[] args) {
-		String filename = "res/JobDispData2/andiamo";
+		String filename = "res/JobDispData2/mindgruve";
 		List<String> jobDisp = ArticleLoader.getArticleFromfile(filename);
 		JobProfileCharacterizer jobProfileExtractor = new JobProfileCharacterizer();
 		Map<String, Double> map = jobProfileExtractor.characterize(jobDisp);
