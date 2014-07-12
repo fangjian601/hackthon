@@ -72,8 +72,8 @@ public class ReadmeLoader {
 	
 	public static void main(String[] args) throws Exception {
 		HashMap<String, String> map = new HashMap<String, String>();
-		map.put("owner", "fqrouter");
-		map.put("name", "qiang");
+		map.put("owner", "atom");
+		map.put("name", "atom");
 		
 		String readme = ReadmeLoader.getReadMEFromURL(map);
 		System.out.println(readme);

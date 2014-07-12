@@ -8,8 +8,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+import java.util.Random;
 import java.util.Set;
 import java.util.Vector;
 
@@ -30,16 +30,18 @@ public class JobProfileCharacterizer {
 		double weighting;
 		String line;
 		try {
+			Random random = new Random();
+			random.setSeed(1000);
 			while ((line = br.readLine()) != null) {
 				Vector<String> words = tokenizeDoc(line);
 				
 				// Decide the weighting
 				if (hasMatchedWord(words, strongWords)) {
-					weighting = 0.75;
+					weighting = 0.75 + 0.2 * random.nextDouble();
 				} else if (hasMatchedWord(words, desiredWords)) {
-					weighting = 0.25;
+					weighting = 0.15 + 0.2 * random.nextDouble();
 				} else {
-					weighting = 0.5;
+					weighting = 0.4 + 0.2 * random.nextDouble();
 				}
 				
 				// Get the vector
@@ -95,7 +97,7 @@ public class JobProfileCharacterizer {
 	}
 	
 	public static void main(String[] args) throws FileNotFoundException {
-		String filename = "res/JobDispData2/mindgruve";
+		String filename = "res/JobDispData/Square";
 //		List<String> jobDisp = ArticleLoader.getArticleFromfile(filename);
 		FileInputStream fis = new FileInputStream(filename);
 		
