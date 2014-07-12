@@ -1,13 +1,13 @@
+import java.io.File;
+
 import org.deeplearning4j.text.tokenizerfactory.UimaTokenizerFactory;
 import org.deeplearning4j.util.SerializationUtils;
 import org.deeplearning4j.word2vec.Word2Vec;
 import org.deeplearning4j.word2vec.inputsanitation.InputHomogenization;
-import org.deeplearning4j.word2vec.sentenceiterator.LineSentenceIterator;
+import org.deeplearning4j.word2vec.sentenceiterator.FileSentenceIterator;
 import org.deeplearning4j.word2vec.sentenceiterator.SentenceIterator;
 import org.deeplearning4j.word2vec.sentenceiterator.SentencePreProcessor;
 import org.deeplearning4j.word2vec.tokenizer.TokenizerFactory;
-
-import java.io.File;
 
 /**
  * Example on training word2vec with
@@ -17,8 +17,9 @@ import java.io.File;
 public class TrainWord2VecOnLineSentences {
 
     public static void main(String[] args) throws Exception {
-        File lines = new File("res/train.txt");
-        SentenceIterator lineIter = new LineSentenceIterator(lines);
+        File lines = new File("res");
+        SentenceIterator lineIter = new FileSentenceIterator(lines);
+
         //get rid of @mentions
         lineIter.setPreProcessor(new SentencePreProcessor() {
         	public String preProcess(String sentence) {
@@ -34,8 +35,7 @@ public class TrainWord2VecOnLineSentences {
         Word2Vec vec = new Word2Vec(tokenizerFactory,lineIter,5);
         vec.train();
 
-        SerializationUtils.saveObject(vec,new File(args[1]));
-
+        SerializationUtils.saveObject(vec, new File("res/model.mod"));
 
     }
 
