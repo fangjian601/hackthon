@@ -1,4 +1,5 @@
 package io.derek.hackathon.characerizer;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -33,7 +34,7 @@ public class ArticleLoader {
 	}
 
 	public static void main(String[] args) {
-		Set<String> dict = KeyWordLoader.getKeyWordSetFromfile("res/techkw");
+		Set<String> dict = KeyWordLoader.getKeyWordSetFromfile("techkw");
 		System.out.println(dict.size());
 		for (String itrString : dict) {
 			System.out.println(itrString);

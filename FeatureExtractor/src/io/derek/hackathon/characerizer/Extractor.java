@@ -1,4 +1,5 @@
 package io.derek.hackathon.characerizer;
+
 import java.util.List;
 import java.util.Map;
 

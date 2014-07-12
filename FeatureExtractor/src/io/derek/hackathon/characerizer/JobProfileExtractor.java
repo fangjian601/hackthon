@@ -1,4 +1,5 @@
 package io.derek.hackathon.characerizer;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -13,12 +14,11 @@ public class JobProfileExtractor implements Extractor{
 	final String[] strongWords = {"strong", "required", "excellent", "highly"};
 	final String[] desiredWords = {"desired", "plus"};
 	
-	@Override
 	public Map<String, Double> characterize(List<String> article) {
 		Map<String, Double> resultMap = new HashMap<String, Double>();
 		
 		// Get the dict from the hardcode file
-		Set<String> dict = KeyWordLoader.getKeyWordSetFromfile("techkw");
+		Set<String> dict = KeyWordLoader.getKeyWordSetFromfile("res/techkw");
 		
 		double weighting;
 		for (String line : article) {
@@ -72,7 +72,7 @@ public class JobProfileExtractor implements Extractor{
 	}
 	
 	public static void main(String[] args) {
-		String filename = "JobDispData/Palantir";
+		String filename = "res/JobDispData/Google-L";
 		List<String> jobDisp = ArticleLoader.getArticleFromfile(filename);
 		JobProfileExtractor jobProfileExtractor = new JobProfileExtractor();
 		Map<String, Double> map = jobProfileExtractor.characterize(jobDisp);
@@ -81,9 +81,7 @@ public class JobProfileExtractor implements Extractor{
 		}
 	}
 
-	@Override
 	public Map<String, Double> characterize(String pureText) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 }
