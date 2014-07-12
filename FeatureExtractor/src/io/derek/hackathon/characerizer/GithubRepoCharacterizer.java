@@ -131,8 +131,8 @@ public class GithubRepoCharacterizer {
 
 	public static void main(String[] args) throws ResourceInitializationException, IOException {
 		HashMap<String, String> map = new HashMap<String, String>();
-		map.put("owner", "mono");
-		map.put("name", "MonoGame");
+		map.put("owner", "binarylogic");
+		map.put("name", "searchlogic");
 		GithubRepoCharacterizer extractor = new GithubRepoCharacterizer();
 		for (Entry entry : extractor.characterize(map).entrySet()) {
 			System.out.println(entry.getKey() + " : " + entry.getValue());
