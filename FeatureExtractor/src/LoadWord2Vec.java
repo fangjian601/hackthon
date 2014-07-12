@@ -15,15 +15,17 @@ public class LoadWord2Vec {
     private static Logger log = LoggerFactory.getLogger(LoadWord2Vec.class);
 
     public static void main(String[] args) {
-        Word2Vec vec = SerializationUtils.readObject(new File("res/model.mod"));
+        Word2Vec vec = SerializationUtils.readObject(new File("res/model/model.mod"));
         log.info("Loaded word2vec with " + vec.getWordIndex().size() + " words and wordvectors of " + vec.getSyn0().rows);
-        List<String> list = vec.similarWordsInVocabTo("java", 0.2);
+        List<String> list = vec.similarWordsInVocabTo("machine learning", 0.5);
         Collections.sort(list);
         for (String word : list) {
-        	System.out.println(word + " " + vec.similarity("java", word));
+        	double sim = vec.similarity("machine learning", word);
+        	if (sim > 0.1) {
+        		System.out.println(word + " " + sim);
+        	}
         }
-        log.info("Similarity of " + vec.similarity("Java","language"));
-        System.out.println(vec.similarity("Java","anywhere"));
+        System.out.println("Similarity of " + vec.similarity("machine learning","machine learning"));
     }
 
 

@@ -3,14 +3,12 @@ package io.derek.hackathon.feature;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 import java.util.Map;
-import java.util.Scanner;
+import java.util.Map.Entry;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -25,6 +23,17 @@ import com.google.common.collect.Maps;
 public class WikipediaScraper {
 	
 	public static final String DIR_NAME = "res/train";
+	public static final String WIKI_LIST_FILE = "res/trainList.txt";
+	public static Map<String, String> DICT;
+	
+	static {
+		try {
+			DICT = loadUrls(WIKI_LIST_FILE);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	
 	/** Scrape text from Wikipedia. */
 	public static List<String> scrapeText(String url) throws IOException {
@@ -40,8 +49,8 @@ public class WikipediaScraper {
 	}
 	
 	/** Scrape and save. */
-	public static void scrapeAndSave(String url, String fileName) throws IOException {
-		PrintWriter writer = new PrintWriter(new File(fileName));
+	public static void scrapeAndSave(String url, File file) throws IOException {
+		PrintWriter writer = new PrintWriter(file);
 		for (String sent : scrapeText(url)) {
 			writer.println(sent);
 		}
@@ -49,13 +58,31 @@ public class WikipediaScraper {
 		writer.close();
 	}
 	
-	public static Map<String, String> loadUrls(String inFile) throws FileNotFoundException {
+	public static Map<String, String> loadUrls(String inFile) throws IOException {
 		Map<String, String> dict = Maps.newHashMap();
 		BufferedReader reader = new BufferedReader(new FileReader(inFile));
 		
+		String line;
+		while ((line = reader.readLine()) != null) {
+			String[] arr = line.split("\t");
+			dict.put(arr[0].trim(), arr[1].trim());
+		}
+		
+		reader.close();
+		return dict;
+	}
+	
+	public static void scrape() throws IOException {
+		for (Entry<String, String> entry : DICT.entrySet()) {
+			String key = entry.getKey();
+			String url = entry.getValue();
+			scrapeAndSave(url, new File(DIR_NAME, key));
+			System.out.println("Scraping " + key + " ..");
+		}
 	}
 	
 	public static void main(String[] args) throws IOException {
-		
+		scrape();
+		System.out.println("done!");
 	}
 }

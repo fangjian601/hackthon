@@ -1,3 +1,8 @@
 java	http://en.wikipedia.org/wiki/Java_(programming_language)
 cpp	http://en.wikipedia.org/wiki/C%2B%2B
 AutoCAD	http://en.wikipedia.org/wiki/AutoCAD
+Hadoop	http://en.wikipedia.org/wiki/Apache_Hadoop
+MapReduce	http://en.wikipedia.org/wiki/MapReduce
+Spark	http://en.wikipedia.org/wiki/Apache_Spark
+Computer Vision	http://en.wikipedia.org/wiki/Computer_vision
+Machine Learning	http://en.wikipedia.org/wiki/Machine_learning
