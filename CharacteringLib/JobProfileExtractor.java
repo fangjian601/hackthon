@@ -18,6 +18,10 @@ public class JobProfileExtractor implements Extractor{
 		
 		// Get the vector
 		for (String word : words) {
+			
+			//TODO
+			//tow gram search
+			
 			if (dict.contains(word)) {
 				resultMap.put(word, (double) 1);
 			}
