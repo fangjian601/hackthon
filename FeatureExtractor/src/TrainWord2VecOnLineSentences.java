@@ -2,10 +2,6 @@ import io.derek.hackathon.feature.Preprocessor;
 
 import java.io.File;
 
-import org.apache.uima.fit.factory.AnalysisEngineFactory;
-import org.cleartk.opennlp.tools.SentenceAnnotator;
-import org.deeplearning4j.text.annotator.TokenizerAnnotator;
-import org.deeplearning4j.text.sentenceiterator.UimaSentenceIterator;
 import org.deeplearning4j.text.tokenizerfactory.UimaTokenizerFactory;
 import org.deeplearning4j.util.SerializationUtils;
 import org.deeplearning4j.word2vec.Word2Vec;

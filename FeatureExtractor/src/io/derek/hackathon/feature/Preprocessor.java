@@ -46,18 +46,18 @@ public class Preprocessor {
 	/** Remove verb, adj, etc.. */
 	public static String removeUncessaryWords(String rawText) {
 		String taggedText = tagger.tagString(rawText);
-		System.out.println(taggedText);
 		Iterable<String> filteredWords = Iterables.filter(
 				Splitter.on(' ').trimResults().omitEmptyStrings().split(taggedText),
-				Predicates.compose(new Predicate<String>() {
-					public boolean apply(String tag) {
-						return "NN".equals(tag);
-					}
-				}, new Function<String, String>() {
-					public String apply(String taggedWord) {
-						return getPosTag(taggedWord);
-					}
-				}));
+				Predicates.compose(
+					Predicates.or(
+							Predicates.equalTo("NN"),
+							Predicates.equalTo(".")
+					)
+					, new Function<String, String>() {
+						public String apply(String taggedWord) {
+							return getPosTag(taggedWord);
+						}
+					}));
 		return Joiner.on(' ').join(Iterables.transform(filteredWords, new Function<String, String>() {
 			public String apply(String taggedWord) {
 				return removeTag(taggedWord);

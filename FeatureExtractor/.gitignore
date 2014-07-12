@@ -2,3 +2,5 @@
 /target
 .classpath
 .project
+res/model
+res/train

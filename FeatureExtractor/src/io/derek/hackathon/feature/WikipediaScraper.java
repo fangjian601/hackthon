@@ -52,7 +52,7 @@ public class WikipediaScraper {
 	public static void scrapeAndSave(String url, File file) throws IOException {
 		PrintWriter writer = new PrintWriter(file);
 		for (String sent : scrapeText(url)) {
-			writer.println(sent);
+			writer.print(sent + " ");
 		}
 		writer.flush();
 		writer.close();
@@ -79,10 +79,10 @@ public class WikipediaScraper {
 			scrapeAndSave(url, new File(DIR_NAME, key));
 			System.out.println("Scraping " + key + " ..");
 		}
+		System.out.println("done!");
 	}
 	
 	public static void main(String[] args) throws IOException {
 		scrape();
-		System.out.println("done!");
 	}
 }
