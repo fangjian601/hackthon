@@ -10,4 +10,10 @@ public class GithubRepoExtractor implements Extractor{
 		return null;
 	}
 
+	@Override
+	public Map<String, Double> characterize(List<String> jobDiscription) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
