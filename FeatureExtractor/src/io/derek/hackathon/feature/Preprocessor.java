@@ -17,7 +17,7 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
 public class Preprocessor {
 
-	static final String DICT_PATH = "res/techkw";
+	public static final String DICT_PATH = "res/techkw";
 	static Set<String> phrases;
 	static Set<String> kwSet;
 	static MaxentTagger tagger = new MaxentTagger("models/english-left3words-distsim.tagger");

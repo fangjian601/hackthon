@@ -21,7 +21,7 @@ public class WordVectorizer {
 	Word2Vec model;
 
 	public void train(boolean forceReTrain) throws IOException, ResourceInitializationException {
-		WikipediaScraper.scrape();
+		WikipediaScraper.scrape(forceReTrain);
 		SentenceIterator lineIter = new FileSentenceIterator(new File(TRAINSET_PATH));
 
 		lineIter.setPreProcessor(new SentencePreProcessor() {
