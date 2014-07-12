@@ -3,10 +3,11 @@ package io.derek.hackathon.characerizer;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.*;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.HashMap;
-
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Redefinable;
+import java.util.Map;
 
 
 public class ReadmeLoader {
@@ -38,7 +39,7 @@ public class ReadmeLoader {
     }
 	
 	
-	public static String getReadMEFromURL(HashMap<String, String> map) {
+	public static String getReadMEFromURL(Map<String, String> map) {
 		
 		// Get the project URL
 		String projectURL = "https://github.com/" + map.get("owner") + "/" + map.get("name");

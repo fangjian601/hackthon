@@ -49,13 +49,15 @@ public class WikipediaScraper {
 	}
 	
 	/** Scrape and save. */
-	public static void scrapeAndSave(String url, File file) throws IOException {
-		PrintWriter writer = new PrintWriter(file);
-		for (String sent : scrapeText(url)) {
-			writer.print(sent + " ");
+	public static void scrapeAndSave(String url, File file, boolean rescrape) throws IOException {
+		if (rescrape || !file.exists()) {
+			PrintWriter writer = new PrintWriter(file);
+			for (String sent : scrapeText(url)) {
+				writer.println(sent + " ");
+			}
+			writer.flush();
+			writer.close();
 		}
-		writer.flush();
-		writer.close();
 	}
 	
 	public static Map<String, String> loadUrls(String inFile) throws IOException {
@@ -72,17 +74,17 @@ public class WikipediaScraper {
 		return dict;
 	}
 	
-	public static void scrape() throws IOException {
+	public static void scrape(boolean rescrape) throws IOException {
 		for (Entry<String, String> entry : DICT.entrySet()) {
 			String key = entry.getKey();
 			String url = entry.getValue();
-			scrapeAndSave(url, new File(DIR_NAME, key));
+			scrapeAndSave(url, new File(DIR_NAME, key), rescrape);
 			System.out.println("Scraping " + key + " ..");
 		}
 		System.out.println("done!");
 	}
 	
 	public static void main(String[] args) throws IOException {
-		scrape();
+		scrape(true);
 	}
 }

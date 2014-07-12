@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Vector;
 
-public class JobProfileExtractor implements Extractor{
+public class JobProfileCharacterizer {
 	
 	final String[] strongWords = {"strong", "required", "excellent", "highly", "fluency", "proficiency" ,"expert", "years"};
 	final String[] desiredWords = {"desired", "plus", "bonus"};
@@ -81,14 +81,10 @@ public class JobProfileExtractor implements Extractor{
 	public static void main(String[] args) {
 		String filename = "res/JobDispData2/mindgruve";
 		List<String> jobDisp = ArticleLoader.getArticleFromfile(filename);
-		JobProfileExtractor jobProfileExtractor = new JobProfileExtractor();
+		JobProfileCharacterizer jobProfileExtractor = new JobProfileCharacterizer();
 		Map<String, Double> map = jobProfileExtractor.characterize(jobDisp);
 		for (String kw : map.keySet()) {
 			System.out.println(kw + ", " + map.get(kw));
 		}
-	}
-
-	public Map<String, Double> characterize(String pureText) {
-		return null;
 	}
 }
