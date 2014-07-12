@@ -23,6 +23,7 @@ public class JobProfileExtractor implements Extractor{
 		double weighting;
 		for (String line : article) {
 			Vector<String> words = tokenizeDoc(line);
+			
 			// Decide the weighting
 			if (hasMatchedWord(words, strongWords)) {
 				weighting = 0.75;
@@ -58,6 +59,9 @@ public class JobProfileExtractor implements Extractor{
 			if (words[i].length() > 0) {
 				tokens.add(words[i].toLowerCase());
 			}
+		}
+		if (cur_doc.toLowerCase().contains("c++")) {
+			tokens.add("c++");
 		}
 		return tokens;
 	}
