@@ -38,14 +38,14 @@ public class GithubRepoCharacterizer {
 					public String apply(String words) {
 						return constructPhrase(words);
 					}
-				}).toSet();
+				}).toImmutableSet();
 
 		DOMAIN_SET = FluentIterable.from(KeyWordLoader.getKeyWordSetFromfile(DOMAIN_PATH))
 				.transform(new Function<String, String>() {
 					public String apply(String words) {
 						return constructPhrase(words);
 					}
-				}).toSet();
+				}).toImmutableSet();
 	}
 
 	public GithubRepoCharacterizer() throws ResourceInitializationException, IOException {
