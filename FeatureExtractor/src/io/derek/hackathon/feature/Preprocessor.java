@@ -19,13 +19,14 @@ public class Preprocessor {
 
 	static final String DICT_PATH = "res/techkw";
 	static Set<String> phrases;
+	static Set<String> kwSet;
 	static MaxentTagger tagger = new MaxentTagger("models/english-left3words-distsim.tagger");
 
 	// load phrases
 	static {
-		Set<String> rawSet = KeyWordLoader.getKeyWordSetFromfile(DICT_PATH);
+		kwSet = KeyWordLoader.getKeyWordSetFromfile(DICT_PATH);
 
-		phrases = FluentIterable.from(rawSet).filter(new Predicate<String>() {
+		phrases = FluentIterable.from(kwSet).filter(new Predicate<String>() {
 			// filter the phrases
 			public boolean apply(String word) {
 				return word.split(" ").length > 1;
