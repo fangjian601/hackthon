@@ -11,8 +11,6 @@ Corel Draw
 Corel Word Perfect
 CSS
 Data Analytics
-Desktop Publishing
-Design
 Diagnostics
 Documentation
 End User Support
@@ -64,7 +62,6 @@ Python
 Quick Books Pro
 Ruby
 Shade
-Software
 Spreadsheet
 SQL
 Support
@@ -107,5 +104,31 @@ Unix, Linux, Windows, Android, iOS
 Hadoop, Spark, HBase, MySQL
 Ruby on Rails, Spring, Hibernate
 Database, FileSystem, Application, Library, Scripts
-Algorithms & Theory, Computational Biology, Computer Education, Computer Vision, Databases, Distributed & Parallel Computing, Graphics, Hardware & Architecture, Human-Computer Interaction, Information Retrieval, Machine Learning, Pattern Recognition, Multimedia, Natural Language & Speech, Networks & Communications, Operating Systems, Programming Languages, Real-Time & Embedded Systems, Scientific Computing, Security & Privacy, Simulation, Software Engineering
+Algorithms & Theory, Computational Biology, Computer Education, Computer Vision, Databases, Distributed & Parallel Computing, Graphics, Hardware, Architecture, Human Computer Interaction, Information Retrieval, Machine Learning, Pattern Recognition, Multimedia, Natural Language Processing, Networks, Communications, Operating Systems, Programming Languages, Real-Time, Embedded Systems, Scientific Computing, Security, Privacy, Simulation, Software Engineering
+
+-----
+Hive
+ZooKeeper
+Hbase
+Sqoop
+Apache
+Pig
+Graphics
+User interface
+computer graphics
+Data Scientist
+Data Science
+SQL
+Stata
+distributed systems
+distributed system
+TCP/IP
+information retrieval
+Object Oriented
+
+
+
+
+
+
 

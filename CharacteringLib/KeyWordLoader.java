@@ -17,7 +17,7 @@ public class KeyWordLoader {
 				if (sCurrentLine.contains("---")) continue;
 				String[] curLineSplitor = sCurrentLine.split(", ");
 				for (int i = 0; i < curLineSplitor.length; i++) {
-					dict.add(curLineSplitor[i]);
+					dict.add(curLineSplitor[i].toLowerCase());
 				}
 			}
  

@@ -60,10 +60,9 @@ public class ReadmeLoader {
 	
 	public static void main(String[] args) throws Exception {
 		HashMap<String, String> map = new HashMap<String, String>();
-		map.put("owner", "buffxz");
-		map.put("name", "High-Resolution-3D-reconstruction");
+		map.put("owner", "tomwhite");
+		map.put("name", "hadoop-book");
 		
-		String URL = "https://github.com/jbrownlee/CleverAlgorithmsMachineLearning";
 		String readme = ReadmeLoader.getReadMEFromURL(map);
 		System.out.println(readme);
 	}

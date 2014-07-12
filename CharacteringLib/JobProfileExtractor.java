@@ -18,26 +18,19 @@ public class JobProfileExtractor implements Extractor{
 		
 		// Get the vector
 		for (String word : words) {
-			
-			//TODO
-			//tow gram search
-			
-			if (dict.contains(word)) {
-				resultMap.put(word, (double) 1);
+			if (dict.contains(word.toLowerCase())) {
+				resultMap.put(word.toLowerCase(), (double) 1);
+			}
+		}
+		
+		// Tow gram search
+		for (int i = 0; i < words.size() - 1; i ++) {
+			if (dict.contains((words.get(i) + " " + words.get(i + 1)).toLowerCase())) {
+				resultMap.put((words.get(i) + " " + words.get(i + 1)).toLowerCase(), (double) 1);
 			}
 		}
 		
 		return resultMap;
-	}
-	
-	public static void main(String[] args) {
-		String filename = "JobDispData/Square";
-		String jobDisp = ArticleLoader.getArticleFromfile(filename);
-		JobProfileExtractor jobProfileExtractor = new JobProfileExtractor();
-		Map<String, Double> map = jobProfileExtractor.characterize(jobDisp);
-		for (String kw : map.keySet()) {
-			System.out.println(kw + ", " + map.get(kw));
-		}
 	}
 	
 	static Vector<String> tokenizeDoc(String cur_doc) {
@@ -50,5 +43,15 @@ public class JobProfileExtractor implements Extractor{
 			}
 		}
 		return tokens;
+	}
+	
+	public static void main(String[] args) {
+		String filename = "JobDispData/Google-L";
+		String jobDisp = ArticleLoader.getArticleFromfile(filename);
+		JobProfileExtractor jobProfileExtractor = new JobProfileExtractor();
+		Map<String, Double> map = jobProfileExtractor.characterize(jobDisp);
+		for (String kw : map.keySet()) {
+			System.out.println(kw + ", " + map.get(kw));
+		}
 	}
 }
