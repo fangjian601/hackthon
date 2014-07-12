@@ -27,7 +27,7 @@ public class JobProfileExtractor implements Extractor{
 	}
 	
 	public static void main(String[] args) {
-		String filename = "SampleJobDisp";
+		String filename = "JobDispData/Square";
 		String jobDisp = ArticleLoader.getArticleFromfile(filename);
 		JobProfileExtractor jobProfileExtractor = new JobProfileExtractor();
 		Map<String, Double> map = jobProfileExtractor.characterize(jobDisp);
