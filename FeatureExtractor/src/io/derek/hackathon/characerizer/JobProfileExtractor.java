@@ -6,12 +6,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Vector;
 
-import com.sun.corba.se.spi.orb.StringPair;
-
-
 public class JobProfileExtractor implements Extractor{
 	
-	final String[] strongWords = {"strong", "required", "excellent", "highly"};
+	final String[] strongWords = {"strong", "required", "excellent", "highly", "fluency", "proficiency" ,"expert"};
 	final String[] desiredWords = {"desired", "plus"};
 	
 	public Map<String, Double> characterize(List<String> article) {
@@ -36,7 +33,13 @@ public class JobProfileExtractor implements Extractor{
 			// Get the vector
 			for (String word : words) {
 				if (dict.contains(word.toLowerCase())) {
-					resultMap.put(word.toLowerCase(), weighting);
+					if (resultMap.get(word.toLowerCase()) != null) {
+						if (resultMap.get(word.toLowerCase()) < weighting) {
+							resultMap.put(word.toLowerCase(), weighting);
+						}
+					} else {
+						resultMap.put(word.toLowerCase(), weighting);
+					}
 				}
 			}
 			
@@ -76,7 +79,7 @@ public class JobProfileExtractor implements Extractor{
 	}
 	
 	public static void main(String[] args) {
-		String filename = "res/JobDispData/Google-L";
+		String filename = "res/JobDispData2/andiamo";
 		List<String> jobDisp = ArticleLoader.getArticleFromfile(filename);
 		JobProfileExtractor jobProfileExtractor = new JobProfileExtractor();
 		Map<String, Double> map = jobProfileExtractor.characterize(jobDisp);
