@@ -24,8 +24,10 @@ public class ReadmeLoader {
 	        StringBuilder response = new StringBuilder();
 	        String inputLine;
 	        
-	        while ((inputLine = in.readLine()) != null) 
-	            response.append(inputLine);
+	        while ((inputLine = in.readLine()) != null) {
+	        	response.append(inputLine);
+	        	response.append(' ');
+	        }
 
 	        in.close();
 	        return response.toString();
@@ -50,6 +52,7 @@ public class ReadmeLoader {
 		String projectURL = "https://github.com/" + map.get("owner") + "/" + map.get("name");
 		
 		String content = ReadmeLoader.getText(projectURL);
+		if (content == null) return null;
 	
 		int index1 = content.indexOf("<span class=\"octicon octicon-book\"></span>  ");
 		if (index1 == -1) return null;
@@ -69,8 +72,8 @@ public class ReadmeLoader {
 	
 	public static void main(String[] args) throws Exception {
 		HashMap<String, String> map = new HashMap<String, String>();
-		map.put("owner", "mono");
-		map.put("name", "MonoGame");
+		map.put("owner", "fqrouter");
+		map.put("name", "qiang");
 		
 		String readme = ReadmeLoader.getReadMEFromURL(map);
 		System.out.println(readme);

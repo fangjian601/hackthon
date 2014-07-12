@@ -1,5 +1,12 @@
 package io.derek.hackathon.characerizer;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -11,44 +18,53 @@ public class JobProfileCharacterizer {
 	final String[] strongWords = {"strong", "required", "excellent", "highly", "fluency", "proficiency" ,"expert", "years"};
 	final String[] desiredWords = {"desired", "plus", "bonus"};
 	
-	public Map<String, Double> characterize(List<String> article) {
+	public Map<String, Double> characterize(InputStream input) {
 		Map<String, Double> resultMap = new HashMap<String, Double>();
+		
+		Reader reader = new InputStreamReader(input);
+		BufferedReader br = new BufferedReader(reader);
 		
 		// Get the dict from the hardcode file
 		Set<String> dict = KeyWordLoader.getKeyWordSetFromfile("res/techkw");
 		
 		double weighting;
-		for (String line : article) {
-			Vector<String> words = tokenizeDoc(line);
-			
-			// Decide the weighting
-			if (hasMatchedWord(words, strongWords)) {
-				weighting = 0.75;
-			} else if (hasMatchedWord(words, desiredWords)) {
-				weighting = 0.25;
-			} else {
-				weighting = 0.5;
-			}
-			
-			// Get the vector
-			for (String word : words) {
-				if (dict.contains(word.toLowerCase())) {
-					if (resultMap.get(word.toLowerCase()) != null) {
-						if (resultMap.get(word.toLowerCase()) < weighting) {
+		String line;
+		try {
+			while ((line = br.readLine()) != null) {
+				Vector<String> words = tokenizeDoc(line);
+				
+				// Decide the weighting
+				if (hasMatchedWord(words, strongWords)) {
+					weighting = 0.75;
+				} else if (hasMatchedWord(words, desiredWords)) {
+					weighting = 0.25;
+				} else {
+					weighting = 0.5;
+				}
+				
+				// Get the vector
+				for (String word : words) {
+					if (dict.contains(word.toLowerCase())) {
+						if (resultMap.get(word.toLowerCase()) != null) {
+							if (resultMap.get(word.toLowerCase()) < weighting) {
+								resultMap.put(word.toLowerCase(), weighting);
+							}
+						} else {
 							resultMap.put(word.toLowerCase(), weighting);
 						}
-					} else {
-						resultMap.put(word.toLowerCase(), weighting);
+					}
+				}
+				
+				// Tow gram search
+				for (int i = 0; i < words.size() - 1; i ++) {
+					if (dict.contains((words.get(i) + " " + words.get(i + 1)).toLowerCase())) {
+						resultMap.put((words.get(i) + " " + words.get(i + 1)).toLowerCase(), weighting);
 					}
 				}
 			}
-			
-			// Tow gram search
-			for (int i = 0; i < words.size() - 1; i ++) {
-				if (dict.contains((words.get(i) + " " + words.get(i + 1)).toLowerCase())) {
-					resultMap.put((words.get(i) + " " + words.get(i + 1)).toLowerCase(), weighting);
-				}
-			}
+		} catch (IOException e) {
+			System.err.println("null result map");
+			return resultMap;
 		}
 		
 		return resultMap;
@@ -78,11 +94,13 @@ public class JobProfileCharacterizer {
 		return false;
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		String filename = "res/JobDispData2/mindgruve";
-		List<String> jobDisp = ArticleLoader.getArticleFromfile(filename);
+//		List<String> jobDisp = ArticleLoader.getArticleFromfile(filename);
+		FileInputStream fis = new FileInputStream(filename);
+		
 		JobProfileCharacterizer jobProfileExtractor = new JobProfileCharacterizer();
-		Map<String, Double> map = jobProfileExtractor.characterize(jobDisp);
+		Map<String, Double> map = jobProfileExtractor.characterize(fis);
 		for (String kw : map.keySet()) {
 			System.out.println(kw + ", " + map.get(kw));
 		}
