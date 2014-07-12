@@ -11090,3 +11090,1367 @@ Num sentences so far  0.0
 				
 Num sentences so far  0.0
 
+2014-07-12 03:59:48,026 - [DEBUG] - from org.springframework.validation.DataBinder in main
+				
+DataBinder requires binding of required fields [sentenceModelPath,sentenceTypeName]
+
+2014-07-12 03:59:48,191 - [DEBUG] - from org.springframework.validation.DataBinder in main
+				
+DataBinder requires binding of required fields [stemmerName]
+
+2014-07-12 03:59:50,147 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 1
+
+2014-07-12 03:59:50,171 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 2
+
+2014-07-12 03:59:50,177 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 3
+
+2014-07-12 03:59:50,194 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 4
+
+2014-07-12 03:59:50,242 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 5
+
+2014-07-12 03:59:50,258 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 6
+
+2014-07-12 03:59:50,309 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 7
+
+2014-07-12 03:59:50,327 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 8
+
+2014-07-12 03:59:50,337 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 9
+
+2014-07-12 03:59:50,354 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 10
+
+2014-07-12 03:59:50,361 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 11
+
+2014-07-12 03:59:50,370 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 12
+
+2014-07-12 03:59:50,375 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 13
+
+2014-07-12 03:59:50,390 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 14
+
+2014-07-12 03:59:50,402 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 15
+
+2014-07-12 03:59:50,409 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 16
+
+2014-07-12 03:59:50,413 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 17
+
+2014-07-12 03:59:50,417 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 18
+
+2014-07-12 03:59:50,425 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 19
+
+2014-07-12 03:59:50,426 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 20
+
+2014-07-12 03:59:50,429 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 21
+
+2014-07-12 03:59:50,432 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 22
+
+2014-07-12 03:59:50,452 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 23
+
+2014-07-12 03:59:50,463 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 24
+
+2014-07-12 03:59:50,465 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 25
+
+2014-07-12 03:59:50,472 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 26
+
+2014-07-12 03:59:50,474 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 27
+
+2014-07-12 03:59:50,476 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 28
+
+2014-07-12 03:59:50,479 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 29
+
+2014-07-12 03:59:50,481 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 30
+
+2014-07-12 03:59:50,485 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 31
+
+2014-07-12 03:59:50,489 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 32
+
+2014-07-12 03:59:50,493 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 33
+
+2014-07-12 03:59:50,497 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 34
+
+2014-07-12 03:59:50,500 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 35
+
+2014-07-12 03:59:50,504 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 36
+
+2014-07-12 03:59:50,506 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 37
+
+2014-07-12 03:59:50,508 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 38
+
+2014-07-12 03:59:50,514 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 39
+
+2014-07-12 03:59:50,519 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 40
+
+2014-07-12 03:59:50,523 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 41
+
+2014-07-12 03:59:50,528 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 42
+
+2014-07-12 03:59:50,541 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 43
+
+2014-07-12 03:59:50,543 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 44
+
+2014-07-12 03:59:50,546 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 45
+
+2014-07-12 03:59:50,552 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 46
+
+2014-07-12 03:59:50,553 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 47
+
+2014-07-12 03:59:50,554 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 48
+
+2014-07-12 03:59:50,556 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 49
+
+2014-07-12 03:59:50,559 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 50
+
+2014-07-12 03:59:50,564 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 51
+
+2014-07-12 03:59:50,568 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 52
+
+2014-07-12 03:59:50,569 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 53
+
+2014-07-12 03:59:50,574 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 54
+
+2014-07-12 03:59:50,579 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 55
+
+2014-07-12 03:59:50,583 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 56
+
+2014-07-12 03:59:50,585 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 57
+
+2014-07-12 03:59:50,591 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 58
+
+2014-07-12 03:59:50,602 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 59
+
+2014-07-12 03:59:50,608 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 60
+
+2014-07-12 03:59:50,609 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 61
+
+2014-07-12 03:59:50,621 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 62
+
+2014-07-12 03:59:50,623 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 63
+
+2014-07-12 03:59:50,627 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 64
+
+2014-07-12 03:59:50,629 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 65
+
+2014-07-12 03:59:50,635 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 66
+
+2014-07-12 03:59:50,639 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 67
+
+2014-07-12 03:59:50,643 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 68
+
+2014-07-12 03:59:50,649 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 69
+
+2014-07-12 03:59:50,650 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 70
+
+2014-07-12 03:59:50,651 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 71
+
+2014-07-12 03:59:50,654 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 72
+
+2014-07-12 03:59:50,660 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 73
+
+2014-07-12 03:59:50,664 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 74
+
+2014-07-12 03:59:50,668 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 75
+
+2014-07-12 03:59:50,674 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 76
+
+2014-07-12 03:59:50,676 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 77
+
+2014-07-12 03:59:50,679 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 78
+
+2014-07-12 03:59:50,682 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 79
+
+2014-07-12 03:59:50,688 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 80
+
+2014-07-12 03:59:50,689 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 81
+
+2014-07-12 03:59:50,692 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 82
+
+2014-07-12 03:59:50,695 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 83
+
+2014-07-12 03:59:50,698 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 84
+
+2014-07-12 03:59:50,700 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 85
+
+2014-07-12 03:59:50,702 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 86
+
+2014-07-12 03:59:50,704 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 87
+
+2014-07-12 03:59:50,707 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 88
+
+2014-07-12 03:59:50,709 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 89
+
+2014-07-12 03:59:50,711 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 90
+
+2014-07-12 03:59:50,712 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 91
+
+2014-07-12 03:59:50,718 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 92
+
+2014-07-12 03:59:50,724 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 93
+
+2014-07-12 03:59:50,727 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 94
+
+2014-07-12 03:59:50,731 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 95
+
+2014-07-12 03:59:50,738 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 96
+
+2014-07-12 03:59:50,743 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 97
+
+2014-07-12 03:59:50,747 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 98
+
+2014-07-12 03:59:50,749 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 99
+
+2014-07-12 03:59:50,755 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 100
+
+2014-07-12 03:59:50,760 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 101
+
+2014-07-12 03:59:50,761 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 102
+
+2014-07-12 03:59:50,764 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 103
+
+2014-07-12 03:59:50,767 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 104
+
+2014-07-12 03:59:50,770 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 105
+
+2014-07-12 03:59:50,776 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 106
+
+2014-07-12 03:59:50,778 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 107
+
+2014-07-12 03:59:50,781 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 108
+
+2014-07-12 03:59:50,786 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 109
+
+2014-07-12 03:59:50,792 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 110
+
+2014-07-12 03:59:50,798 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 111
+
+2014-07-12 03:59:50,802 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 112
+
+2014-07-12 03:59:50,806 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 113
+
+2014-07-12 03:59:50,814 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 114
+
+2014-07-12 03:59:50,821 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 115
+
+2014-07-12 03:59:50,825 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 116
+
+2014-07-12 03:59:50,827 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 117
+
+2014-07-12 03:59:50,835 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 118
+
+2014-07-12 03:59:50,838 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 119
+
+2014-07-12 03:59:50,841 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 120
+
+2014-07-12 03:59:50,850 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 121
+
+2014-07-12 03:59:50,853 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 122
+
+2014-07-12 03:59:50,855 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 123
+
+2014-07-12 03:59:50,857 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 124
+
+2014-07-12 03:59:50,862 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 125
+
+2014-07-12 03:59:50,871 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 126
+
+2014-07-12 03:59:50,877 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 127
+
+2014-07-12 03:59:50,879 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 128
+
+2014-07-12 03:59:50,882 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 129
+
+2014-07-12 03:59:50,888 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 130
+
+2014-07-12 03:59:50,891 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 131
+
+2014-07-12 03:59:50,902 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 132
+
+2014-07-12 03:59:50,908 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 133
+
+2014-07-12 03:59:50,914 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 134
+
+2014-07-12 03:59:50,922 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 135
+
+2014-07-12 03:59:50,925 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 136
+
+2014-07-12 03:59:50,930 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 137
+
+2014-07-12 03:59:50,934 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 138
+
+2014-07-12 03:59:50,936 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 139
+
+2014-07-12 03:59:50,938 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 140
+
+2014-07-12 03:59:50,952 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 141
+
+2014-07-12 03:59:50,954 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 142
+
+2014-07-12 03:59:50,955 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 143
+
+2014-07-12 03:59:50,957 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 144
+
+2014-07-12 03:59:50,962 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 145
+
+2014-07-12 03:59:50,965 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 146
+
+2014-07-12 03:59:50,966 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 147
+
+2014-07-12 03:59:50,969 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 148
+
+2014-07-12 03:59:50,971 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 149
+
+2014-07-12 03:59:50,973 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 150
+
+2014-07-12 03:59:50,975 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 151
+
+2014-07-12 03:59:50,976 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 152
+
+2014-07-12 03:59:50,983 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 153
+
+2014-07-12 03:59:50,988 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 154
+
+2014-07-12 03:59:50,990 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 155
+
+2014-07-12 03:59:50,994 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 156
+
+2014-07-12 03:59:50,999 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 157
+
+2014-07-12 03:59:51,000 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 158
+
+2014-07-12 03:59:51,004 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 159
+
+2014-07-12 03:59:51,018 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 160
+
+2014-07-12 03:59:51,024 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 161
+
+2014-07-12 03:59:51,027 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 162
+
+2014-07-12 03:59:51,110 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 163
+
+2014-07-12 03:59:51,115 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 164
+
+2014-07-12 03:59:51,117 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 165
+
+2014-07-12 03:59:51,119 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 166
+
+2014-07-12 03:59:51,121 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 167
+
+2014-07-12 03:59:51,121 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 168
+
+2014-07-12 03:59:51,122 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 169
+
+2014-07-12 03:59:51,126 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 170
+
+2014-07-12 03:59:51,127 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 171
+
+2014-07-12 03:59:51,133 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 172
+
+2014-07-12 03:59:51,141 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 173
+
+2014-07-12 03:59:51,150 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 174
+
+2014-07-12 03:59:51,157 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 175
+
+2014-07-12 03:59:51,163 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 176
+
+2014-07-12 03:59:51,166 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 177
+
+2014-07-12 03:59:51,173 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 178
+
+2014-07-12 03:59:51,174 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 179
+
+2014-07-12 03:59:51,175 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 180
+
+2014-07-12 03:59:51,179 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 181
+
+2014-07-12 03:59:51,180 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 182
+
+2014-07-12 03:59:51,182 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 183
+
+2014-07-12 03:59:51,187 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 184
+
+2014-07-12 03:59:51,193 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 185
+
+2014-07-12 03:59:51,195 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 186
+
+2014-07-12 03:59:51,200 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 187
+
+2014-07-12 03:59:51,202 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 188
+
+2014-07-12 03:59:51,207 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 189
+
+2014-07-12 03:59:51,208 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 190
+
+2014-07-12 03:59:51,211 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 191
+
+2014-07-12 03:59:51,214 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 192
+
+2014-07-12 03:59:51,216 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 193
+
+2014-07-12 03:59:51,217 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 194
+
+2014-07-12 03:59:51,221 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 195
+
+2014-07-12 03:59:51,226 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 196
+
+2014-07-12 03:59:51,228 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 197
+
+2014-07-12 03:59:51,229 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 198
+
+2014-07-12 03:59:51,232 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 199
+
+2014-07-12 03:59:51,232 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 200
+
+2014-07-12 03:59:51,233 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 201
+
+2014-07-12 03:59:51,233 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 202
+
+2014-07-12 03:59:51,237 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 203
+
+2014-07-12 03:59:51,239 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 204
+
+2014-07-12 03:59:51,240 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 205
+
+2014-07-12 03:59:51,241 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 206
+
+2014-07-12 03:59:51,242 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 207
+
+2014-07-12 03:59:51,246 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 208
+
+2014-07-12 03:59:51,249 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 209
+
+2014-07-12 03:59:51,252 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 210
+
+2014-07-12 03:59:51,253 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 211
+
+2014-07-12 03:59:51,254 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 212
+
+2014-07-12 03:59:51,256 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 213
+
+2014-07-12 03:59:51,259 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 214
+
+2014-07-12 03:59:51,268 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 215
+
+2014-07-12 03:59:51,275 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 216
+
+2014-07-12 03:59:51,280 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 217
+
+2014-07-12 03:59:51,283 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 218
+
+2014-07-12 03:59:51,287 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 219
+
+2014-07-12 03:59:51,289 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 220
+
+2014-07-12 03:59:51,291 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 221
+
+2014-07-12 03:59:51,295 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 222
+
+2014-07-12 03:59:51,299 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 223
+
+2014-07-12 03:59:51,307 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 224
+
+2014-07-12 03:59:51,312 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 225
+
+2014-07-12 03:59:51,313 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 226
+
+2014-07-12 03:59:51,315 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 227
+
+2014-07-12 03:59:51,316 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 228
+
+2014-07-12 03:59:51,320 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 229
+
+2014-07-12 03:59:51,322 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 230
+
+2014-07-12 03:59:51,325 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 231
+
+2014-07-12 03:59:51,328 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 232
+
+2014-07-12 03:59:51,330 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 233
+
+2014-07-12 03:59:51,336 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 234
+
+2014-07-12 03:59:51,343 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 235
+
+2014-07-12 03:59:51,345 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 236
+
+2014-07-12 03:59:51,346 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 237
+
+2014-07-12 03:59:51,349 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 238
+
+2014-07-12 03:59:51,350 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 239
+
+2014-07-12 03:59:51,352 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 240
+
+2014-07-12 03:59:51,355 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 241
+
+2014-07-12 03:59:51,357 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 242
+
+2014-07-12 03:59:51,358 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 243
+
+2014-07-12 03:59:51,371 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 244
+
+2014-07-12 03:59:51,374 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 245
+
+2014-07-12 03:59:51,376 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 246
+
+2014-07-12 03:59:51,377 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 247
+
+2014-07-12 03:59:51,381 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 248
+
+2014-07-12 03:59:51,383 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 249
+
+2014-07-12 03:59:51,384 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 250
+
+2014-07-12 03:59:51,386 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 251
+
+2014-07-12 03:59:51,388 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 252
+
+2014-07-12 03:59:51,390 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 253
+
+2014-07-12 03:59:51,391 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 254
+
+2014-07-12 03:59:51,391 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 255
+
+2014-07-12 03:59:51,392 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 256
+
+2014-07-12 03:59:51,395 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 257
+
+2014-07-12 03:59:51,397 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 258
+
+2014-07-12 03:59:51,399 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 259
+
+2014-07-12 03:59:51,400 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 260
+
+2014-07-12 03:59:51,404 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 261
+
+2014-07-12 03:59:51,405 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 262
+
+2014-07-12 03:59:51,407 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 263
+
+2014-07-12 03:59:51,412 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 264
+
+2014-07-12 03:59:51,413 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 265
+
+2014-07-12 03:59:51,416 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 266
+
+2014-07-12 03:59:51,417 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 267
+
+2014-07-12 03:59:51,418 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 268
+
+2014-07-12 03:59:51,419 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 269
+
+2014-07-12 03:59:51,421 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 270
+
+2014-07-12 03:59:51,422 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 271
+
+2014-07-12 03:59:51,423 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 272
+
+2014-07-12 03:59:51,424 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 273
+
+2014-07-12 03:59:51,427 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 274
+
+2014-07-12 03:59:51,431 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 275
+
+2014-07-12 03:59:51,433 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 276
+
+2014-07-12 03:59:51,438 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 277
+
+2014-07-12 03:59:51,439 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 278
+
+2014-07-12 03:59:51,440 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 279
+
+2014-07-12 03:59:51,444 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 280
+
+2014-07-12 03:59:51,445 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 281
+
+2014-07-12 03:59:51,446 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 282
+
+2014-07-12 03:59:51,447 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 283
+
+2014-07-12 03:59:51,448 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 284
+
+2014-07-12 03:59:51,450 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 285
+
+2014-07-12 03:59:51,451 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 286
+
+2014-07-12 03:59:51,452 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 287
+
+2014-07-12 03:59:51,454 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 288
+
+2014-07-12 03:59:51,455 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 289
+
+2014-07-12 03:59:51,456 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 290
+
+2014-07-12 03:59:51,460 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 291
+
+2014-07-12 03:59:51,461 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 292
+
+2014-07-12 03:59:51,462 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 293
+
+2014-07-12 03:59:51,463 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 294
+
+2014-07-12 03:59:51,465 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 295
+
+2014-07-12 03:59:51,468 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 296
+
+2014-07-12 03:59:51,469 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 297
+
+2014-07-12 03:59:51,471 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 298
+
+2014-07-12 03:59:51,473 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 299
+
+2014-07-12 03:59:51,474 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 300
+
+2014-07-12 03:59:51,476 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 301
+
+2014-07-12 03:59:51,477 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 302
+
+2014-07-12 03:59:51,478 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 303
+
+2014-07-12 03:59:51,479 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 304
+
+2014-07-12 03:59:51,481 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 305
+
+2014-07-12 03:59:51,484 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 306
+
+2014-07-12 03:59:51,485 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 307
+
+2014-07-12 03:59:51,486 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 308
+
+2014-07-12 03:59:51,487 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 309
+
+2014-07-12 03:59:51,487 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 310
+
+2014-07-12 03:59:51,488 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 311
+
+2014-07-12 03:59:51,490 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 312
+
+2014-07-12 03:59:51,496 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 313
+
+2014-07-12 03:59:51,501 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 314
+
+2014-07-12 03:59:51,505 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 315
+
+2014-07-12 03:59:51,506 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 316
+
+2014-07-12 03:59:51,509 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 317
+
+2014-07-12 03:59:51,513 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 318
+
+2014-07-12 03:59:51,516 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 319
+
+2014-07-12 03:59:51,517 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 320
+
+2014-07-12 03:59:51,531 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 321
+
+2014-07-12 03:59:51,534 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 322
+
+2014-07-12 03:59:51,537 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 323
+
+2014-07-12 03:59:51,543 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 324
+
+2014-07-12 03:59:51,551 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 325
+
+2014-07-12 03:59:51,552 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 326
+
+2014-07-12 03:59:51,552 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 327
+
+2014-07-12 03:59:51,559 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 328
+
+2014-07-12 03:59:51,570 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 329
+
+2014-07-12 03:59:51,570 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-12 04:00:06,570 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-12 04:00:21,571 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-12 04:00:36,572 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-12 04:00:51,572 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-12 04:00:51,573 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Building binary tree
+
+2014-07-12 04:00:51,586 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Built tree
+
+2014-07-12 04:00:51,586 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Resetting weights
+
+2014-07-12 04:00:51,601 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Training word2vec multithreaded
+
+2014-07-12 04:00:51,775 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in default-akka.actor.default-dispatcher-38
+				
+Alpha updated 0.001 progress 0
+

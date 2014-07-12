@@ -1,8 +1,7 @@
 package io.derek.hackathon.feature;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import io.derek.hackathon.characerizer.KeyWordLoader;
+
 import java.util.Set;
 
 import com.google.common.base.Function;
@@ -13,40 +12,33 @@ import com.google.common.base.Predicates;
 import com.google.common.base.Splitter;
 import com.google.common.collect.FluentIterable;
 import com.google.common.collect.Iterables;
-import com.google.common.collect.Sets;
 
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
 public class Preprocessor {
 
-	static final String DICT_PATH = "";
+	static final String DICT_PATH = "res/techkw";
 	static Set<String> phrases;
 	static MaxentTagger tagger = new MaxentTagger("models/english-left3words-distsim.tagger");
 
 	// load phrases
 	static {
-		try {
-			Set<String> rawSet = KeyWOrd
+		Set<String> rawSet = KeyWordLoader.getKeyWordSetFromfile(DICT_PATH);
 
-			phrases = FluentIterable.from(rawSet).filter(new Predicate<String>() {
-				// filter the phrases
-				public boolean apply(String word) {
-					return word.split(" ").length > 1;
-				}
-			}).toSet();
-			reader.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
+		phrases = FluentIterable.from(rawSet).filter(new Predicate<String>() {
+			// filter the phrases
+			public boolean apply(String word) {
+				return word.split(" ").length > 1;
+			}
+		}).toSet();
 	}
 
 	/** retain phrase in rawText */
 	public static String transformPhrases(String rawText) {
-		String processed = rawText;
+		String processed = rawText.toLowerCase();
 		Joiner joiner = Joiner.on('_');
 		for (String phrase : phrases) {
-			processed = rawText.replaceAll(phrase, joiner.join(phrase.split(" ")));
+			processed = processed.replaceAll(phrase, joiner.join(phrase.split(" ")));
 		}
 		return processed;
 	}
@@ -86,11 +78,12 @@ public class Preprocessor {
 		return taggedWord.substring(0, index);
 	}
 
-	public static void main(String[] args) {
-		System.out.println(removeUncessaryWords("Java is a good programming language."));
-	}
-
-	public String preprocess(String rawText) {
+	public static String preprocess(String rawText) {
 		return removeUncessaryWords(transformPhrases(rawText));
 	}
+
+	public static void main(String[] args) {
+		System.out.println(preprocess("Java is a good programming language. Machine learning is kind of cool."));
+	}
+
 }
