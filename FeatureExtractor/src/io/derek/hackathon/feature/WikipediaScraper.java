@@ -43,7 +43,7 @@ public class WikipediaScraper {
 			public String apply(Element ele) {
 				return ele.text().trim();
 			}
-		}).filter(Predicates.not(Predicates.equalTo(""))).toList();
+		}).filter(Predicates.not(Predicates.equalTo(""))).toImmutableList();
 		
 		return sentences;
 	}
