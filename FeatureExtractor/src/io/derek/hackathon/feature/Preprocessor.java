@@ -31,7 +31,7 @@ public class Preprocessor {
 			public boolean apply(String word) {
 				return word.split(" ").length > 1;
 			}
-		}).toSet();
+		}).toImmutableSet();
 	}
 
 	/** retain phrase in rawText */
