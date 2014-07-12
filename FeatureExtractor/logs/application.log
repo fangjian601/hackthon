@@ -1,0 +1,68 @@
+2014-07-11 21:48:25,677 - [DEBUG] - from org.springframework.validation.DataBinder in main
+				
+DataBinder requires binding of required fields [sentenceModelPath,sentenceTypeName]
+
+2014-07-11 21:48:25,841 - [DEBUG] - from org.springframework.validation.DataBinder in main
+				
+DataBinder requires binding of required fields [stemmerName]
+
+2014-07-11 21:48:27,087 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 1
+
+2014-07-11 21:48:27,088 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 2
+
+2014-07-11 21:48:27,089 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 3
+
+2014-07-11 21:48:27,092 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 4
+
+2014-07-11 21:48:27,092 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Sent 5
+
+2014-07-11 21:48:27,092 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-11 21:48:42,093 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-11 21:48:57,094 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-11 21:49:12,095 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-11 21:49:27,096 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-11 21:49:42,097 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Waiting on setup...
+
+2014-07-11 21:49:42,097 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Building binary tree
+
+2014-07-11 21:49:42,103 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Built tree
+
+2014-07-11 21:49:42,103 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Resetting weights
+
+2014-07-11 21:49:42,111 - [INFO] - from org.deeplearning4j.word2vec.Word2Vec in main
+				
+Training word2vec multithreaded
+
