@@ -1,0 +1,141 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-image:url('background.jpg');
+}
+#titleImage {
+    width : 250px;
+}
+.maxWidth {
+	width : 90%;
+	margin-left : 5%;
+	margin-right : 5%;
+}
+
+.largeHeight {
+	height : 350px;
+}
+
+.titleText {
+	font-size: 300%;
+}
+
+.subTitleText {
+	font-size: 150%;
+}
+
+#enterTitle {
+	margin-top: 20px;
+}
+
+.center {
+	margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#home {
+	display: none;
+}
+
+.imgIcon {
+	width: 20px;
+	height: 20px;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+#searchButton {
+	font-size: 150%;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#titleInApp {
+	font-size: 250%;
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	color: #333;
+}
+
+.card {
+	border-radius: 15px;
+	width : 210px;
+	height: 90px;
+	position: absolute;
+	background-color : #EEE;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999;
+}
+
+.avatar {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	width: 90px;
+	height: 90px;
+	margin-right : 2px;
+	float: left;
+	border-width: 0px;
+	border-color: #999;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+
+.cardName {
+	margin : 2px;
+	margin-top: 4px;
+	font-size: 80%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.arrow {
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	bottom: 100px;
+	cursor: pointer;
+}
+
+.left {
+	left: 60px;
+}
+
+.right {
+	right: 60px;
+}
+
+.email {
+	font-size: 100%;
+	margin: 10px;
+	margin-top: 50px;
+}
+
+.linked {
+	font-size: 100%;
+	margin: 10px;
+	margin-top: 18px;
+}
+
+.company {
+	font-size: 80%;
+	margin: 10px;
+	margin-top: 15px;
+}
+
+.hidden {
+	display: none;
+}
+
+.bu {
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+

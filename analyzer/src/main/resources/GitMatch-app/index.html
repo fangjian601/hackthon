@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>GitMatch</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,100,300' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="lib/raphael-min.js"></script>
+		<script src="core.js"></script>
+		<script src="user.js"></script>
+		<script src="statGraph.js"></script>
+	</head>
+	<body>
+	<div id="home">
+		<center class='titleText'><img id="titleImage" src="logo.png"/></center>
+		<center class='subTitleText'><label>Provide a job description, and we'll provide a list of candidates based off their github history</label></center>
+		<center class='' id='enterTitle'><label>Copy and paste your job description below</label></center>
+		<textarea class="maxWidth largeHeight" id="textAreaInput"></textarea>
+		<center><button id="searchButton">Search</button></center>
+	</div>
+	</body>
+</html>
